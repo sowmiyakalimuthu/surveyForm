@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <title>Survey Form</title>
+ <link rel="stylesheet" href="styles.css" />
+ </head>
+  <h1 id="title">Skincare Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the service</P>
+  <form id="survey-form" method="post">
+    <fieldset>
+      <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Your name" required></label>
+      </fieldset>
+    <fieldset>
+      <label id="email-label"  for="email">Email <input id="email" type="email" placeholder="email" required></label>
+      </fieldset>
+    <fieldset>
+      <label id="number-label" for="number">Age <input id="number" type="number" min="15" max="120" placeholder="age" required></label>
+      </fieldset>
+      <fieldset>
+       <label for="dropdown ">Sex <select id="dropdown" name="sex">
+         <option value="">Select</option>
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+       </select></label>
+         </fieldset>
+         <fieldset>
+           <label>How long you (in months) using Skincare products? <input id="how-long" type="number" min="3" max="20" required ></label>
+      </fieldset>
+    <fieldset>
+      <label>Would you recommend Skincare products to your circle?
+      <label for="definitely"><input class="inline" id="definitely" type="radio" name="recommendation" value="definitely" checked> Definitely</label>
+      <label for="maybe"><input class="inline" id="maybe" type="radio" name="recommendation" value="maybe"> Maybe</label>
+      <label for="notSure"><input class="inline" id="notSure" type="radio" name="recommendation" value="notSure"> Not sure</label>
+      </label>
+      </fieldset>
+    <fieldset>
+      <label>What are your favorite category of products? (Check all of your choice)
+        <label for="body-care"><input class="inline" id="body-care" type="checkbox"  value="favorite-category"> Body care</label>
+        <label for="eye-care"><input class="inline" id="eye-care" type="checkbox"  value="favorite-category"> Eye care</label>
+        <label for="face-care"><input class="inline" id="face-care" type="checkbox"  value="favorite-category"> Face care</label>
+       <label for="foot-care"><input class="inline" id="foot-care" type="checkbox"  value="favorite-category"> Foot care</label>
+      <label for="hair-care"><input class="inline" id="hair-care" type="checkbox" value="favorite-category"> Hair care</label>
+      <label for="lip-care"><input class="inline" id="lip-care" type="checkbox"  value="favorite-category"> Lip care</label>
+      </label>
+      </fieldset>
+    <fieldset>
+      <label>What would you like to see improved? (Check all of your choice)
+        <label for="price"><input class="inline" id="price" type="checkbox"  value="need-improvement"> Price</label>
+        <label for="quantity"><input class="inline" id="quantity" type="checkbox"  value="need-improvement"> Quantity or Vol</label>
+        <label for="need-minis"><input class="inline" id="need-minis" type="checkbox"  value="need-improvement"> Need minis</label>
+        <label for="need-more-combos"><input class="inline" id="need-more-combos" type="checkbox"  value="need-improvement"> Need more combos</label>
+        <label for="need-frequent-offers"><input class="inline" id="need-frequent-offers" type="checkbox"  value="need-improvement"> Need frequent offers</label>
+        <label for="need-regular-updates"><input class="inline" id="need-regular-updates" type="checkbox"  value="need-improvement"> Need regular updates</label>
+        <label for="need-whatsapp-group"><input class="inline" id="need-whatsapp-group" type="checkbox"  value="need-improvement"> Need whatsapp group</label>
+        </label>
+      </fieldset>
+    <fieldset>
+      <label for="suggestions">Any comments or suggestions?
+ <textarea id="suggestions" name="suggestions" rows="3" cols="
+30" placeholder="Am expecting more ahir-care range products."></textarea>
+ </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+ <body>
+
+
+
+
+
+
+
+
+
